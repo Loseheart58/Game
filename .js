@@ -52,7 +52,7 @@ const game_text = update_color(update_scale(update_position(create_text(""), [si
 // Audio
 const eat = create_audio("https://labs.phaser.io/assets/audio/SoundEffects/key.wav", 1);
 const lose = create_audio("https://labs.phaser.io/assets/audio/stacker/gamelost.m4a", 1);
-const move = create_audio("https://github.com/Loseheart58/Game/blob/main/%E9%A9%AC%E9%87%8C%E5%A5%A5%E8%B7%B3%E8%B7%83%E7%9A%84%E5%A3%B0%E9%9F%B3_%E7%88%B1%E7%BB%99%E7%BD%91_aigei_com.mp3", 1);
+const move = create_audio("https://raw.githubusercontent.com/Loseheart58/Game/main/马里奥跳跃的声音_爱给网_aigei_com.mp3", 1);
 const bg_audio = play_audio(loop_audio(create_audio("https://labs.phaser.io/assets/audio/tech/bass.mp3", 0.5)));
 
 // Create Update loop
