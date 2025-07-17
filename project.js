@@ -470,8 +470,8 @@ function update_water(gameObject) {
         in_water_time = 0;
     }
 
-    // 玩家在水中超过 5 秒 Game Over
-    if (in_water_time > 5 && !game_over) {
+    // 玩家在水中超过 3 秒 Game Over
+    if (in_water_time > 3 && !game_over) {
     game_over = true;
     play(mario_death);
     set_update(cam, x => {
