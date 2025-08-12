@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+\title{Random \LaTeX\ Example}
+\author{A.I. Assistant}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Stochastic Processes}
+The Wiener process $W_t$ satisfies:
+\[
+dW_t = \mu dt + \sigma dZ_t
+\]
+where $\sigma > 0$ is the volatility parameter.
+
+\subsection{Probability Distribution}
+For independent random variables:
+\begin{equation*}
+P\left( \bigcap_{i=1}^n A_i \right) = \prod_{i=1}^n P(A_i)
+\end{equation*}
+
+\section{Empirical Results}
+\begin{table}[h]
+\centering
+\caption{Experimental Data (n=3)}
+\begin{tabular}{@{}ccc@{}}
+\toprule
+\textbf{Trial} & \textbf{Temperature (K)} & \textbf{Conductivity} \\
+\midrule
+1 & 273 & 0.82 \\
+2 & 298 & 1.05 \\
+3 & 310 & 1.24 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Key Observations}
+\begin{itemize}
+\item First-order conditions suggest:
+\[
+\frac{\partial f}{\partial x} = 2x - \lambda = 0
+\]
+\item Convergence rate follows $O(n\log n)$
+\item Error margin $\varepsilon < 0.05$
+\end{itemize}
+
+\section*{Appendix}
+The characteristic function is given by:
+\[
+\varphi_X(t) = \mathbb{E}\left[e^{itX}\right]
+\]
+
+\end{document
